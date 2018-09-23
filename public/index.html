@@ -19,26 +19,26 @@
 
     <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Beyond The Numbers</a>
+        <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" onClick="document.getElementById('contactSection').scrollIntoView({behavior: 'smooth'});">Contact Us</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#">Link</a>
             </li>
             <li class="nav-item">
               <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
+            </li> -->
           </ul>
-          <form class="form-inline mt-2 mt-md-0">
+          <!-- <form class="form-inline mt-2 mt-md-0">
             <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+          </form> -->
         </div>
       </nav>
     </header>
@@ -50,35 +50,45 @@
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
           <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="first-slide" src="https://source.unsplash.com/random/6348" alt="First slide" style="max-width:100%; max-height:100%;">
-            <div class="container">
-              <div class="carousel-caption text-left">
-                <h1>Numbers</h1>
-                <p>Strategically manage your numbers to achieve the ultimate goals of your business.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              <img class="first-slide" src="https://images.unsplash.com/photo-1483959651481-dc75b89291f1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cc56016233ca58bf18a280a5dca0abe7&auto=format&fit=crop&w=2101&q=80" alt="First slide" style="max-width:100%; max-height:100%; opacity:0.4">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1 style="font-size: 5.5rem; text-align: center">BEYOND THE NUMBERS CORPORATION</h1>
+                  <p style="font-size: 6.5rem; text-align: center;">(BNC)</p>
+                </div>
               </div>
             </div>
-          </div>
           <div class="carousel-item">
-            <img class="second-slide" src="https://source.unsplash.com/random/9006" alt="Second slide" style="max-width:100%; max-height:100%;">
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Analyses</h1>
-                <p>Provide further operational analyses and make appopriate recommendations.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="third-slide" src="https://source.unsplash.com/random/915" alt="Third slide" style="max-width:100%; max-height:100%;">
+            <img class="second-slide" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5a7430d7bd5676bc7b81f2b8bf8f6a75&auto=format&fit=crop&w=2004&q=80" alt="First slide" style="max-width:100%; max-height:100%; opacity:0.6">
             <div class="container">
               <div class="carousel-caption text-right">
-                <h1>Moving Forward</h1>
-                <p>Guide you move forward and grow your business.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                <h1 style="font-size: 7.5rem">Numbers</h1>
+                <p style="font-size: 2rem">Strategically manage your numbers to achieve the ultimate goals of your business.</p>
+                <p><a class="btn btn-lg btn-primary" role="button" onClick="document.getElementById('NumbersSection').scrollIntoView({behavior: 'smooth'});">Learn More</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="third-slide" src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-0.3.5&s=d76f7fc4683154750278efa03bec3358&auto=format&fit=crop&w=1950&q=80" alt="Second slide" style="max-width:100%; max-height:100%; opacity:0.6">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1 style="font-size: 7.5rem">Analyses</h1>
+                <p style="font-size: 2rem">Provide operational analyses and make the appropriate recommendations.</p>
+                <p><a class="btn btn-lg btn-primary" role="button" onClick="document.getElementById('AnalysesSection').scrollIntoView({behavior: 'smooth'});">Learn More</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="fourth-slide" src="https://images.unsplash.com/photo-1494178270175-e96de2971df9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9f2137e9191c119c518a9a246187ce8b&auto=format&fit=crop&w=1944&q=80" alt="Third slide" style="max-width:100%; max-height:100%; opacity: 0.75">
+            <div class="container">
+              <div class="carousel-caption text-right">
+                <h1 style="font-size: 7.5rem">Moving Forward</h1>
+                <p style="font-size: 2rem">Guiding you to move forward and grow your business.</p>
+                <p><a class="btn btn-lg btn-primary" role="button" onClick="document.getElementById('MovingForwardSection').scrollIntoView({behavior: 'smooth'});">Learn More</a></p>
               </div>
             </div>
           </div>
@@ -106,11 +116,23 @@
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">Numbers</h2>
+            <h2 class="featurette-heading" style="margin-top: 10px;">Numbers</h2>
             <p class="lead">Strategically manage your numbers to achieve the ultimate goals of your business.</p>
+            <br><br>
+            BNC provides the following services:
+            <ul>
+              <li>Full Accounting Cycle for Small and Medium-Sized Businesses</li>
+              <li>Bookkeeping and GST Reporting</li>
+              <li>Start-up Business Registration</li>
+              <li>Individual and Business Tax</li>
+              <li>Payroll Accounting</li>
+              <li>Horizontal, Vertical, Trend and Ratio Calculations</li>
+              <li>Auditing </li>
+              <li>3-Year Strategic Development Plan</li>
+            </ul>
           </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" src="https://source.unsplash.com/random/1663" alt="Generic placeholder image">
+          <div id="NumbersSection" class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="https://images.unsplash.com/photo-1526456498183-95faff4bf58f?ixlib=rb-0.3.5&s=9baf032aa7fd9b7faa4a26ccd42c4351&auto=format&fit=crop&w=2073&q=80" alt="Generic placeholder image">
           </div>
         </div>
 
@@ -118,11 +140,20 @@
 
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Analyses</h2>
-            <p class="lead">Provide further operational analyses and make appopriate recommendations.</p>
+            <h2 class="featurette-heading" style="margin-top: 10px;">Analyses</h2>
+            <p class="lead">Provide operational analyses and make appopriate recommendations.</p>
+            <br><br>
+            Identify and analyze the business:
+            <ul>
+              <li>Current Situation</li>
+              <li>Structure and Profitability</li>
+              <li>Strengths and Weaknesses</li>
+              <li>The Industry’s Opportunities and Threats</li>
+              <li>Pros and Cons of Alternative Courses of Actions</li>
+            </ul>
           </div>
           <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" src="https://source.unsplash.com/random/2977" alt="Generic placeholder image">
+            <img id="AnalysesSection" class="featurette-image img-fluid mx-auto" src="http://puu.sh/BzhoY/26cfca35d4.jpg" alt="Generic placeholder image">
           </div>
         </div>
 
@@ -131,14 +162,37 @@
         <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading">Moving <span class="text-muted">Forward</span></h2>
-            <p class="lead">Guide you move forward and grow your business.</p>
+            <p class="lead">We guide you to move forward and grow your business.</p>
+            <br><br>
+            BNC provides:
+            <ul>
+              <li>Strategic Recommendations To Move Your Business Forward</li>
+              <li>Guidance For Implementation</li>
+            </ul>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" src="https://source.unsplash.com/random/6512" alt="Generic placeholder image">
+            <img id="MovingForwardSection" class="featurette-image img-fluid mx-auto" src="https://images.unsplash.com/photo-1514130546524-5da6eaa36b72?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fb15e4fb8360dd44dd5ac2b2dfe7cf68&auto=format&fit=crop&w=1950&q=80" alt="Generic placeholder image">
           </div>
         </div>
 
         <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div id="contactSection" class="col-md-12">
+              <!-- <h2 class="featurette-heading">Moving <span class="text-muted">Forward</span></h2> -->
+              <p class="lead">
+                <b>BNC</b> brings you unique services. <b>Lei Lei</b> and <b>Vivian</b> are successful professionals with more than 20 years of exposure in the different fields of accounting: auditing; research and development; public, private, non-profit, and government accounting.  <br><br>
+                With a reputation for high performance in the integration of financial and management accounting, BNC leads in the preparation and implementation of strategic plans directed towards the accomplishment of your business objectives. <br><br>
+                <br><br>
+                <b>Get in Touch</b><br><br>
+                Lei Lei: 613-204-2007<br>
+                Vivian: 587-434-1087<br>
+                E-mail: bnc.alberta@gmail.com<br>
+              </p>
+            </div>
+          </div>
+
+          <hr class="featurette-divider">
 
         <!-- /END THE FEATURETTES -->
 
@@ -146,25 +200,21 @@
         <div class="row">
           <div class="col-lg-6" style="text-align: center;">
             <img class="rounded-circle" src="https://media.licdn.com/dms/image/C4D03AQFv5C2sy0ek7g/profile-displayphoto-shrink_800_800/0?e=1542240000&v=beta&t=MXhx3wFjvDjPQKbGtpbaL_rgi56Wpe8Y0OB_ozrA26s" alt="Generic placeholder image" width="140" height="140">
-            <h2>Lei Lei Proctor</h2>
-            <p>Lei Lei is a CPA, CMA blah blah blah with X years of experience on blah blah blah.</p>
-            <p><a class="btn btn-secondary" href="https://www.linkedin.com/in/lei-lei-proctor-cpa-cma-357904137/" role="button">View details &raquo;</a></p>
+            <h2>Lei Lei Proctor, CPA, CMA</h2>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-6" style="text-align: center;">
             <img class="rounded-circle" src="https://media.licdn.com/dms/image/C5603AQEWAUgMBRb6Ng/profile-displayphoto-shrink_800_800/0?e=1542240000&v=beta&t=d1_QxLi9RFzxFtSi3mb2_Q7zDDW1EhVFD-2uFwADoh4" alt="Generic placeholder image" width="140" height="140">
-            <h2>Vivian Noble-Pascual</h2>
-            <p>Vivian is a CPA, CMA blah blah blah with X years of experience on blah blah blah.</p>
-            <p><a class="btn btn-secondary" href="https://www.linkedin.com/in/vivian-noble-pascual-cpa-cma-canada-cpa-mba-dba-phils-b844a13a/" role="button">View details &raquo;</a></p>
+            <h2>Vivian Noble-Pascual, CPA, CMA</h2>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
 
       </div><!-- /.container -->
 
-
+      <br><br><br><br>
       <!-- FOOTER -->
       <footer class="container">
         <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2017-2018 Beyond the Numbers Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p>&copy; 2017-2018 Beyond the Numbers Corporation &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
     </main>
   
